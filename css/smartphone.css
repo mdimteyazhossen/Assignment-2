@@ -1,9 +1,16 @@
-/* header style start  */
-body{
-    background-color:brown;
-    background-color: black;
-    /* width: 394px; */
+.shape{
+    font-family: 'Miama',sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
 }
+.wittgenstein-normal{
+    background-color: rgba(0, 0, 0);
+    font-family: 'Noto Sans Tai Viet', sans-serif;
+} 
+.shape{
+    font-family: 'Miama',sans-serif;
+}
+/* header style start  */
 .header{
     padding: 4px;
     width: 100%;
@@ -28,7 +35,6 @@ body{
     font-weight: 800;
     color: rgb(230,83,60);
     padding: 20px 5px;
-
 }
 
 .dropdown-menu{
@@ -37,8 +43,6 @@ body{
     position: absolute;
     top: 55px;
     left: 85%;
-    /* margin: 30px; */
-
 }
 .dropdown-content{
     height: auto;
@@ -61,7 +65,6 @@ body{
     height: auto;
     width: 170px;
     background-color: rgba(255,255,255,0.2);
-    /* color: rgb(256,256,256); */
     margin: 8px;
     text-align: center;
     padding: 10px;
@@ -70,7 +73,6 @@ body{
 }
 .dropdown-menu:hover .dropdown-content{
     display: block;
-
 }
 .title>h1{
     font-size: 48px;
@@ -91,12 +93,12 @@ body{
 .down{
     height: 54px;
     width: 210px;
-    padding: 16px 40px;
+    padding: 14px 10px;
     box-sizing: border-box;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 45px;
     color: rgb(255,255,255);
-    background:rgba(0, 0, 0);
+    background:none;
     font-size: 18px;
     font-weight: 600;
     justify-content: center;
@@ -114,9 +116,12 @@ body{
 .join2{
     color: rgb(255, 255, 255);
 }
+.tb{
+    display: flex;
+}
 .bt1 ,.bt2{
     position:absolute;
-    top:665px;
+    top:865px;
     left:270px;
     border: 1px;
     border-radius: 12px;
@@ -137,7 +142,7 @@ body{
     background-color: rgb(230,83,60);
 }
 .bt2{
-    top:880px;
+    top:1080px;
     left:55px;
     display:flex;
     gap:10px;
@@ -152,19 +157,25 @@ body{
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
+.play-arrow{
+    height: 25px;
+    margin: 5px 8px;
+    position: relative;
+    text-align: center;
+    
+    align-items: center;
+}
 .Images2{
     padding-left: 45%;
     margin-top: 30px;
     padding-left:50px ;
     margin-bottom:-10px;
-    /* width: 30px;
-    height: 560px; */
 }
 /* ends header style  */
 /* main destgn start  */
 /* change design start  */
 .change{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
     color:rgb(255, 255, 255);
     text-align: center;
@@ -220,7 +231,7 @@ body{
     
 }
 .run-title{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
@@ -323,12 +334,11 @@ body{
     margin-top: 50px;
     width: auto;
     background-color: rgb(34, 34, 34);
-    /* padding: 60px 190px 80px 190px; */
     display: grid;
     justify-content: space-between;
 }
 .bmi1 ,.bmi2{
-    padding-left:10% ;
+    padding-left:8% ;
 }
 .bmi-thead{
     font-size: 17px;
@@ -338,7 +348,6 @@ body{
     font-size: 30px;
     font-weight: 900;
     color: rgb(255, 255, 255);
-
 }
 .bmi-thead{
     font-size: 18px;
@@ -367,16 +376,18 @@ tr,td{
     margin:0 5px 10px 0;
     color: rgba(255, 255, 255, 0.5);
     background-color: rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    font-weight: 600;
 }
 .option{
     width: 46%;
 }
 .activity-option{
-    width: 95%;
+    width: 94%;
 }
 .bmi-button{
     height: 50px;
-    width: 55%;
+    width: 97%;
     background-color: rgb(230,83,60);
     text-align: center;
     padding: 16px 70px;
@@ -385,6 +396,25 @@ tr,td{
     font-size: 18px;
     font-weight: 600;
     color: rgb(255, 255, 255);
+    margin-bottom:20px;
+}
+/* bmr design start */
+.bmr-sec{
+    margin-left: -40px;
+}
+.bmr-button{
+    width: 97%;
+}
+.bmr{
+    width: 46%;
+} 
+.bmr-br{
+    display: none;
+}
+.bmr-p{
+    width:100%;
+    text-align: justify;
+    font-size: 19px;
 }
 /* meet our team  */
 .meet{
@@ -421,61 +451,64 @@ tr,td{
 .t-intro2{
     width: auto;
     height: 20px;
-    position:absolute;
+    position:relative;
     color: yellow;
-    top: 5640px;
-    left:90px;
+    top:70%;
+    left:5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 450;
+    margin-top: -35px;
 }
 .t-intro3{
     width: auto;
     height: 20px;
-    position:absolute;
+    position:relative;
     color: yellow;
-    top: 5960px;
-    left: 90px;
+    top: 70%;
+    left: 5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 450;
+    margin-top: -35px;
 }
 .t-intro5{
     width: auto;
     height: 20px;
-    position:absolute;
+    position:relative;
     color: yellow;
-    top: 6280px;
-    left: 90px;
+    top: 70%;
+    left: 5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 450;
+    margin-top: -35px;
 }
 .t-intro6{
     width: auto;
     height: 20px;
-    position:absolute;
+    position:relative;
     color: yellow;
-    top: 6610px;
-    left: 90px;
+    top: 70%;
+    left: 5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 450;
+    margin-top: -35px;
 }
 .t-name{
-    font-size: 20px;
+    font-size: 24px;
     font-size: 1200;
     color: rgb(255, 255, 255);
 }
 /* footer design start  */
 footer{
-    width: 100%;
+    width: 97.5%;
     height: auto;
     background-color: rgba(255, 255, 255, 0.1);
 }
 .footer{
     display: grid;
-    /* justify-content: center; */
     padding:10px;
     height: auto;
     width: 100%;
@@ -485,7 +518,6 @@ footer{
 .ft-link, .ft-link{
     display: grid;
     padding-top: 70px;
-    /* padding-left: 100px; */
 }
 .footer-h1{
     font-size:70px ;
@@ -498,7 +530,6 @@ footer{
     font-weight: 400;
     text-align: left;
     width: 99%;
-    /* margin: 0 auto; */
 }
 .footer-hr{
     width: 75%;

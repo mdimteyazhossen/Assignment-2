@@ -1,9 +1,12 @@
-.wittgenstein-normal{
-    background-color: rgba(0, 0, 0);
-} 
 .shape{
     font-family: 'Miama',sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
 }
+.wittgenstein-normal{
+    background-color: rgba(0, 0, 0);
+    font-family: 'Noto Sans Tai Viet', sans-serif;
+} 
 header{
     height: 700px;
     width: 100%;
@@ -49,6 +52,9 @@ header{
     left:1000px;
     display: flex;
     gap:10px;
+}
+.play-arrow{
+    display: none;
 }
 #bt1n{
     font-size:40px ;
@@ -105,7 +111,7 @@ header{
     margin-bottom: 150px;   
 }
 .title>h1{
-    font-size: 78px;
+    font-size: 58px;
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
@@ -121,7 +127,7 @@ header{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 45px;
     color: rgb(255,255,255);
-    background:rgba(0, 0, 0);
+    background:none;
     font-size: 18px;
     font-weight: 600;
     justify-content: center;
@@ -325,6 +331,7 @@ header{
 .bmi-thead{
     font-size: 17px;
     font-weight: 500;
+    padding: 10px;
 }
 .bmi-h1{
     font-size: 30px;
@@ -347,18 +354,18 @@ tr,td{
     border: 0.1px solid rgba(255, 255, 255, 0.5);
     text-align: left;
     font-size: 16px;
-    padding: 5px;
+    padding: 10px;
     color: rgba(255, 255, 255, 0.5);
 }
 .bmi1 {
-    padding-left:250px ;
+    padding-left:12% ;
 }
 .bmi2{
-    padding-right:250px ;
+    padding-right:12% ;
 }
 .input{
     height: 50px;
-    width: 45%;
+    width: 46%;
     padding-left: 12px;
     border: 1px;
     border-radius: 10px;
@@ -395,9 +402,13 @@ tr,td{
     text-align: center;
 }
 .bmr-p{
-    width:400px;
+    width:420px;
     text-align: justify;
     font-size: 19px;
+}
+.bmr-h1{
+    width:420px;
+
 }
 /* meet our team  */
 .meet{
@@ -428,68 +439,68 @@ tr,td{
 .t-intro1{
     width: auto;
     height: 20px;
-    position:absolute;
-    color: yellow;
-    top: 4380px;
-    left: 320px;
+    position:relative;
+    top: 75%;
+    left: 5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 450;
+    margin-top: -45px;
 }
 .t-intro2{
     width: auto;
     height: 20px;
-    position:absolute;
-    color: yellow;
-    top: 4380px;
-    left:700px;
+    position:relative;
+    top: 75%;
+    left:5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 450;
+    margin-top: -45px;
 }
 .t-intro3{
     width: auto;
     height: 20px;
-    position:absolute;
-    color: yellow;
-    top: 4380px;
-    left: 1080px;
+    position:relative;
+    top:75%;
+    left: 5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 450;
+    margin-top: -45px;
 }
 .t-intro4{
     width: auto;
     height: 20px;
-    position:absolute;
-    color: yellow;
-    top: 4700px;
-    left: 320px;
+    position:relative;
+    top:75%;
+    left: 5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 450;
+    margin-top: -45px;
 }
 .t-intro5{
     width: auto;
     height: 20px;
-    position:absolute;
-    color: yellow;
-    top: 4700px;
-    left: 700px;
+    position:relative;
+    top: 75%;
+    left: 5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 450;
+    margin-top: -45px;
 }
 .t-intro6{
     width: auto;
     height: 20px;
-    position:absolute;
-    color: yellow;
-    top: 4700px;
-    left: 1080px;
+    position:relative;
+    top: 75%;
+    left: 5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 450;
+    margin-top: -45px;
 }
 .t-name{
     font-size: 25px;
